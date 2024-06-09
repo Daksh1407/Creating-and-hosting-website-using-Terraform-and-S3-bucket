@@ -1,0 +1,196 @@
+/*
+Template Name: Electro - HTML Ecommerce Template
+Author: yaminncco
+
+Colors:
+	Body 		: #333
+	Headers 	: #2B2D42
+	Primary 	: #D10024
+	Dark 		: #15161D ##1E1F29
+	Grey 		: #E4E7ED #FBFBFC #8D99AE #B9BABC
+
+Fonts: Montserrat
+
+Table OF Contents
+------------------------------------
+1 > GENERAL
+------ Typography
+------ Buttons
+------ Inputs
+------ Sections
+------ Breadcrumb
+2 > HEADER
+------ Top header
+------ Logo
+------ Search
+------ Cart
+3 > NAVIGATION
+------ Main nav
+------ Responsive Nav
+4 > CATEGORY SHOP
+5 > HOT DEAL
+6 > PRODUCT
+------ Product
+------ Widget product
+------ Product slick
+7 > STORE PAGE
+------ Aside
+------ Store
+8 > PRODUCT DETAILS PAGE
+------ Product view
+------ Product details
+------ Product tab
+9 > CHECKOUT PAGE
+10 > NEWSLETTER
+11 > FOOTER
+11 > SLICK STYLE
+12 > RESPONSIVE
+------------------------------------*/
+
+/*=========================================================
+	01 -> GENERAL
+===========================================================*/
+
+/*----------------------------*\
+	Typography
+\*----------------------------*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  background-image: linear-gradient(-134deg, #FFA62E 0%, #FB962E 20%, #F8852E 40%, #F3742D 60%, #EF612D 80%, #EA4D2C 100%);
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2B2D42;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+a {
+  color: #2B2D42;
+  font-weight: 500;
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+a:hover, a:focus {
+  color: #D10024;
+  text-decoration: none;
+  outline: none;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+/*----------------------------*\
+	Buttons
+\*----------------------------*/
+
+.primary-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #D10024;
+  border: none;
+  border-radius: 40px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.primary-btn:hover, .primary-btn:focus {
+  opacity: 0.9;
+  color: #FFF;
+}
+
+/*----------------------------*\
+	Inputs
+\*----------------------------*/
+.wrap-login100 {
+    width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.p-r-55 {
+    padding-right: 55px;
+}
+.p-l-55 {
+    padding-left: 55px;
+}
+.p-b-54 {
+    padding-bottom: 54px;
+}
+.p-t-65 {
+    padding-top: 65px;
+}
+.login100-form {
+    width: 100%;
+}
+.login100-form-title {
+    display: block;
+    font-family: Poppins-Bold;
+    font-size: 39px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+}
+.p-b-49 {
+    padding-bottom: 49px;
+}
+.validate-input {
+    position: relative;
+}
+.wrap-input100 {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #d9d9d9;
+}
+.m-b-23 {
+    margin-bottom: 23px;
+}
+
+/*-- Text input --*/
+
+
+.input {
+  height: 40px;
+  padding: 0px 15px;
+  border: 1px solid #E4E7ED;
+  background-color: #FFF;
+  width: 100%;
+}
+
+textarea.input {
+  padding: 15px;
+  min-height: 90px;
+}
+
+/*-- Number input --*/
+
+.input-number {
+  position: relative;
+}
+
+.input-number input[type="number"]::-webkit-inner-spin-button, .input-number input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-number input[type="number"] {
+  -moz-appearance: textfield;
+  height: 40px;
+  width: 100%;
+  border: 1px solid #E4E7ED;
+  background-color: #FFF;
+  padding: 0px 35px 0px 15px;
+}
+
+
