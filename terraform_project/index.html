@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRM's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0e0e0; /* Updated background color */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        .profile-img {
+            max-width: 100%;
+            border-radius: 50%;
+            margin: 0 auto; /* Center the image horizontally */
+            display: block; /* Remove any default inline behavior */
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            animation: scaleIn 1s ease-in-out;
+        }
+
+        .project {
+            margin-bottom: 2em;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px; /* Add rounded corners to project images */
+        }
+
+        .project-description {
+            margin-top: 1em;
+        }
+
+        /* Basic animation styles */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes scaleIn {
+            from {
+                transform: scale(0);
+            }
+
+            to {
+                transform: scale(1);
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>SRM's Portfolio</h1>
+    </header>
+
+    <section>
+        <img src="https://terraformproject078.s3.amazonaws.com/profile.png" alt="Profile" class="profile-img fade-in">
+        <h2>About Me</h2>
+        <p>Hello, we're a dynamic web development team consisting of talented individuals, including Piyush and Upendra. Together, we pool our skills and enthusiasm to design and develop websites that are not only user-friendly but also visually stunning. Piyush brings his expertise in [mention Piyush's specific skills or focus], while Upendra contributes his strengths in [mention Upendra's specific skills or focus]. As a collaborative team, we are dedicated to delivering top-notch websites that exceed expectations and leave a lasting impact.</p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+
+        <div class="project fade-in">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p class="project-description">Description of Project 1.</p>
+        </div>
+
+        <div class="project fade-in">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p class="project-description">Description of Project 2.</p>
+        </div>
+
+        <!-- Add more project sections as needed -->
+
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>You can reach me at srm@example.com</p>
+    </section>
+
+</body>
+
+</html>
